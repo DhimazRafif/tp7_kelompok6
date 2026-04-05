@@ -32,6 +32,7 @@ namespace tpmodul7_kelompok_6
                 int i = 1;
                 foreach (var mk in daftarMatkul) {
                     Console.WriteLine($"MK{i} {mk.kode_mata_kuliah} - {mk.nama_mata_kuliah}");
+                    i++;
                 }
                 
             }
