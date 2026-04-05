@@ -27,7 +27,7 @@ namespace tpmodul7_kelompok_6
                     IncludeFields = true,
                 };
 
-                var mhs = JsonSerializer.Deserialize<DataMahasiswa103082400030>(json, options);
+                var mhs = JsonSerializer.Deserialize<DataMahasiswa103082400002>(json, options);
 
                 Console.WriteLine($"Nama {mhs.nama} dengan nim {mhs.nim} dari fakultas {mhs.fakultas}");
             }
