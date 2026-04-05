@@ -4,6 +4,12 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        DataMahasiswa_103082400002 data3 = new DataMahasiswa_103082400002();
+        data3.ReadJSON();
+
+        KuliahMahasiswa_103082400002 mk3 = new KuliahMahasiswa_103082400002();
+        mk3.ReadJSON();
+
         DataMahasiswa_103082430003 data = new DataMahasiswa_103082430003();
         data.ReadJSON();
 
